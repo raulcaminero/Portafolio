@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+
+/* Light mode: soft light-blue */
+body {
+  background-color: #eaf2fb !important;
+  background-image:
+    radial-gradient(800px circle at 85% -10%, rgba(59, 130, 246, 0.18), transparent 60%),
+    radial-gradient(900px circle at -10% 110%, rgba(147, 197, 253, 0.25), transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Dark mode: deep navy blue instead of black */
+.dark body {
+  background-color: #0a1428 !important;
+  background-image:
+    radial-gradient(800px circle at 85% -10%, rgba(59, 130, 246, 0.28), transparent 60%),
+    radial-gradient(900px circle at -10% 110%, rgba(37, 99, 235, 0.20), transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Nav underline animation */
+.nav-link { position: relative; }
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 1px;
+  width: 100%;
+  background: #3b82f6;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.nav-link:hover::after { transform: scaleX(1); }
+
+/* Animated gradient on hero name */
+.gradient-name {
+  background: linear-gradient(90deg, #2563eb, #818cf8, #60a5fa, #2563eb);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradmove 8s linear infinite;
+}
+@keyframes gradmove { to { background-position: 300% 0; } }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
