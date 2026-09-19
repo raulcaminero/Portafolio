@@ -37,6 +37,7 @@ export const projects: Project[] = [
     name: "Realtor Showcase",
     description: "Real estate listing platform featuring dynamic property filtering, modal showcases, and responsive UI.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS"],
+    demo: "https://realtor-website-tau-three.vercel.app/",
     repo: "https://github.com/raulcaminero/realtor-website",
   },
   {
