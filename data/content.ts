@@ -7,7 +7,7 @@ export const hero = {
 
 export const about = [
   "I focus on efficiency and performance: optimizing API requests, database queries, and caching strategies across critical application flows. Currently building AI-powered services with LangGraph, AWS Bedrock, and RAG pipelines (pgvector, Anthropic Claude).",
-  "Deep expertise in React, Node.js/NestJS, GraphQL, and AWS, with a track record of leading teams, mentoring engineers, and owning architecture from design to production.",
+  "Deep expertise in TypeScript, Node.js/NestJS, Golang, PHP, C#, C++, Perl, React, GraphQL, and AWS, with a track record of leading teams, mentoring engineers, and owning architecture from design to production.",
 ];
 
 export type Project = {
