@@ -21,17 +21,17 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "CMHub — Multi-Company Fiscal ERP",
+    name: "CMHub",
     description: "Multi-tenant tax filing & fiscal accounting system with DGII e-CF, NCF sequences, and AI copilot.",
     stack: ["Next.js", "NestJS", "Prisma", "PostgreSQL", "Neon.tech", "TypeScript"],
     demo: "https://cmhub-web.vercel.app/cmhub",
     repo: "https://github.com/raulcaminero/cmhub",
   },
   {
-    name: "GetCloser — AI Appointment Booking",
+    name: "GetCloser",
     description: "Automated scheduling platform with WhatsApp notifications, Google Calendar sync, and AI lead qualification.",
     stack: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "WhatsApp API", "Tailwind CSS"],
-    repo: "https://github.com/raulcaminero/smart-schedule",
+    repo: "https://github.com/raulcaminero/GetCloser",
   },
   {
     name: "Realtor Showcase Website",
