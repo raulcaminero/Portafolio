@@ -29,8 +29,8 @@ export const projects: Project[] = [
   },
   {
     name: "GetCloser",
-    description: "Automated scheduling platform with WhatsApp notifications, Google Calendar sync, and AI lead qualification.",
-    stack: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "WhatsApp API", "Tailwind CSS"],
+    description: "AI-powered conversational seller bot designed for automated lead engagement, sales qualification, and closing deals.",
+    stack: ["Next.js", "TypeScript", "AI Agent", "Tailwind CSS"],
     repo: "https://github.com/raulcaminero/GetCloser",
   },
   {
