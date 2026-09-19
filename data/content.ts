@@ -44,6 +44,7 @@ export const projects: Project[] = [
     name: "Personal Portfolio",
     description: "High-performance developer portfolio built with Next.js App Router and Tailwind CSS.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    demo: "https://portafolio-six-ochre-tw6emy4eaw.vercel.app/",
     repo: "https://github.com/raulcaminero/portafolio",
   },
 ];
