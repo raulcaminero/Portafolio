@@ -72,7 +72,8 @@ export const experience = [
 ];
 
 export const skills: Record<string, string[]> = {
-  Backend: ["Node.js", "NestJS", "TypeScript", "GraphQL", "Golang", "PHP / Laravel", ".NET / C#"],
+  Languages: ["TypeScript", "JavaScript", "Golang", "PHP", "C#", "C++", "Perl", "SQL"],
+  Backend: ["Node.js", "NestJS", "GraphQL", "Laravel", ".NET"],
   AI: ["LangGraph", "AWS Bedrock", "Anthropic Claude", "RAG", "pgvector"],
   Cloud: ["AWS", "Terraform", "Docker", "Kubernetes", "CI/CD"],
   Frontend: ["React", "Next.js", "Vue.js", "Angular"],
