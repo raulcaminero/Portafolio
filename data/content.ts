@@ -46,14 +46,6 @@ export const projects: Project[] = [
     repo: "https://github.com/raulcaminero/realtor-website",
   },
   {
-    name: "GloveBox Go Migration — Architecture Slice",
-    description: "Legacy NestJS to Go microservice migration with Strangler-Fig proxy, ADRs, and AI workflow guardrails.",
-    details:
-      "Demonstrates incremental backend migration, pgx+sqlc data mapping, OpenTelemetry tracing, and a custom Claude API PR review tool.",
-    stack: ["Golang", "NestJS", "PostgreSQL", "Strangler Gateway", "OpenTelemetry"],
-    repo: "https://github.com/raulcaminero/glovebox-go-migration",
-  },
-  {
     name: "This Portfolio",
     description: "Personal portfolio focused on high performance and clean architecture.",
     details:
