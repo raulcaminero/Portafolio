@@ -34,7 +34,7 @@ export const projects: Project[] = [
     repo: "https://github.com/raulcaminero/GetCloser",
   },
   {
-    name: "Realtor Showcase Website",
+    name: "Realtor Showcase",
     description: "Real estate listing platform featuring dynamic property filtering, modal showcases, and responsive UI.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS"],
     repo: "https://github.com/raulcaminero/realtor-website",
