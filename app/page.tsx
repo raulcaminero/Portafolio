@@ -61,8 +61,7 @@ export default function Home() {
           {projects.map((p) => (
             <article key={p.name} className="flex flex-col rounded-2xl border border-zinc-200 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent hover:shadow-lg hover:shadow-blue-500/10 dark:border-zinc-800 dark:hover:border-accent-dark">
               <h3 className="font-semibold text-zinc-900 dark:text-zinc-100">{p.name}</h3>
-              <p className="mt-2 text-sm font-medium text-zinc-700 dark:text-zinc-300">{p.description}</p>
-              <p className="mt-2 flex-1 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">{p.details}</p>
+              <p className="mt-2 flex-1 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">{p.description}</p>
               <div className="mt-4 flex flex-wrap gap-2">
                 {p.stack.map((s) => (
                   <span key={s} className="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300">{s}</span>

@@ -13,7 +13,7 @@ export const about = [
 export type Project = {
   name: string;
   description: string;
-  details: string;
+  details?: string;
   stack: string[];
   demo?: string;
   repo?: string;
@@ -21,35 +21,27 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "CMHub — Multi-Company Fiscal ERP & Tax Platform",
+    name: "CMHub — Multi-Company Fiscal ERP",
     description: "Multi-tenant tax filing & fiscal accounting system with DGII e-CF, NCF sequences, and AI copilot.",
-    details:
-      "Full-stack ERP system built with NestJS, Next.js 15, Prisma ORM, PostgreSQL (Neon.tech), pgvector AI embeddings, and BullMQ background queues.",
     stack: ["Next.js", "NestJS", "Prisma", "PostgreSQL", "Neon.tech", "TypeScript"],
     demo: "https://cmhub-web.vercel.app/cmhub",
     repo: "https://github.com/raulcaminero/cmhub",
   },
   {
-    name: "GetCloser — AI Appointment & Booking Platform",
-    description: "Automated booking system with WhatsApp notifications, Google Calendar sync, and AI lead qualification.",
-    details:
-      "Enterprise scheduling application with Next.js 15, Prisma ORM, PostgreSQL, BullMQ background jobs, WhatsApp Cloud API, and OpenAI/Claude integrations.",
+    name: "GetCloser — AI Appointment Booking",
+    description: "Automated scheduling platform with WhatsApp notifications, Google Calendar sync, and AI lead qualification.",
     stack: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "WhatsApp API", "Tailwind CSS"],
     repo: "https://github.com/raulcaminero/smart-schedule",
   },
   {
     name: "Realtor Showcase Website",
-    description: "Real estate property listing platform with dynamic search, modal showcases, and responsive UI.",
-    details:
-      "Modern real estate showcase site built with Next.js, TypeScript, and Tailwind CSS focusing on high-performance static rendering.",
+    description: "Real estate listing platform featuring dynamic property filtering, modal showcases, and responsive UI.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS"],
     repo: "https://github.com/raulcaminero/realtor-website",
   },
   {
-    name: "This Portfolio",
-    description: "Personal portfolio focused on high performance and clean architecture.",
-    details:
-      "Next.js 14 (App Router), TypeScript, and Tailwind CSS. Statically generated, zero heavy dependencies, deployed on Vercel with CI from GitHub.",
+    name: "Personal Portfolio",
+    description: "High-performance developer portfolio built with Next.js App Router and Tailwind CSS.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     repo: "https://github.com/raulcaminero/portafolio",
   },
