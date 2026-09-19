@@ -21,30 +21,45 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "Project One — replace me",
-    description: "One line: the problem this project solves.",
+    name: "CMHub — Multi-Company Fiscal ERP & Tax Platform",
+    description: "Multi-tenant tax filing & fiscal accounting system with DGII e-CF, NCF sequences, and AI copilot.",
     details:
-      "Two or three lines about the key technical decisions: architecture, why this stack, what was hard.",
-    stack: ["Next.js", "NestJS", "PostgreSQL"],
-    demo: "https://example.com",
-    repo: "https://github.com/raulcaminero/project-one",
+      "Full-stack ERP system built with NestJS, Next.js 15, Prisma ORM, PostgreSQL (Neon.tech), pgvector AI embeddings, and BullMQ background queues.",
+    stack: ["Next.js", "NestJS", "Prisma", "PostgreSQL", "Neon.tech", "TypeScript"],
+    demo: "https://cmhub-web.vercel.app/cmhub",
+    repo: "https://github.com/raulcaminero/cmhub",
   },
   {
-    name: "Project Two — replace me",
-    description: "One line: the problem this project solves.",
+    name: "GetCloser — AI Appointment & Booking Platform",
+    description: "Automated booking system with WhatsApp notifications, Google Calendar sync, and AI lead qualification.",
     details:
-      "Two or three lines about the key technical decisions.",
-    stack: ["React", "Node.js", "AWS"],
-    demo: "https://example.com",
-    repo: "https://github.com/raulcaminero/project-two",
+      "Enterprise scheduling application with Next.js 15, Prisma ORM, PostgreSQL, BullMQ background jobs, WhatsApp Cloud API, and OpenAI/Claude integrations.",
+    stack: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "WhatsApp API", "Tailwind CSS"],
+    repo: "https://github.com/raulcaminero/smart-schedule",
+  },
+  {
+    name: "Realtor Showcase Website",
+    description: "Real estate property listing platform with dynamic search, modal showcases, and responsive UI.",
+    details:
+      "Modern real estate showcase site built with Next.js, TypeScript, and Tailwind CSS focusing on high-performance static rendering.",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS"],
+    repo: "https://github.com/raulcaminero/realtor-website",
+  },
+  {
+    name: "GloveBox Go Migration — Architecture Slice",
+    description: "Legacy NestJS to Go microservice migration with Strangler-Fig proxy, ADRs, and AI workflow guardrails.",
+    details:
+      "Demonstrates incremental backend migration, pgx+sqlc data mapping, OpenTelemetry tracing, and a custom Claude API PR review tool.",
+    stack: ["Golang", "NestJS", "PostgreSQL", "Strangler Gateway", "OpenTelemetry"],
+    repo: "https://github.com/raulcaminero/glovebox-go-migration",
   },
   {
     name: "This Portfolio",
-    description: "Personal portfolio focused on performance — Lighthouse 95+.",
+    description: "Personal portfolio focused on high performance and clean architecture.",
     details:
       "Next.js 14 (App Router), TypeScript, and Tailwind CSS. Statically generated, zero heavy dependencies, deployed on Vercel with CI from GitHub.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-    repo: "https://github.com/raulcaminero/portfolio",
+    repo: "https://github.com/raulcaminero/portafolio",
   },
 ];
 
